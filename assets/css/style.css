@@ -124,7 +124,26 @@ section {
 
 .imgProject {
     display: inline-block;
+    position: relative;
     margin: 32px;
+}
+
+.banner {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    height: 64px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 64px;
+    text-align:center;
+}
+
+a.label {
+    background: #4aaaa5;
+    color: #ffffff;
+
 }
 
 /* contact page */
@@ -182,6 +201,7 @@ input[type=submit]:hover {
 
     .imgProject {
         display: block;
+        margin: 32px 138px 32px 138px;
     }
 
     #mQcenter {
@@ -219,6 +239,7 @@ input[type=submit]:hover {
 
     .imgProject {
         display: block;
+        margin: 32px 122px 32px 122px;
     }
 
     #mQcenter {
