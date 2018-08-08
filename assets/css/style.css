@@ -194,19 +194,18 @@ input[type=submit]:hover {
         max-width: 75%;
     }
 
+    #mQcenter {
+        text-align: center;
+    }
+    
     .img {
         width: 48%;
     }
 
     .imgProject {
-        display: block;
         margin: 32px 138px 32px 138px;
     }
 
-    #mQcenter {
-        text-align: center;
-    }
-    
 }
 
 @media only screen and (max-width: 640px) {
@@ -229,6 +228,10 @@ input[type=submit]:hover {
         max-width: 85%;
     }
 
+    #mQcenter {
+        text-align: center;
+    }
+
     .img {
         display: block;
         float: none;
@@ -237,13 +240,21 @@ input[type=submit]:hover {
     }
 
     .imgProject {
-        display: block;
+        position: relative;
         margin: 32px 122px 32px 122px;
     }
 
-    #mQcenter {
-        text-align: center;
+    .banner {
+        position: absolute;
+        top: 140px;
+        width: 100%;
+        height: 64px;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 64px;
+        text-align:center;
     }
-    
+
 }
 
